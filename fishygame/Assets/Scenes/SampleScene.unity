@@ -1262,6 +1262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 736bc1a9126ad7b42b3b4005a453af7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DamageSource
+  damageAmount: 1
 --- !u!1001 &2561466959606102526
 PrefabInstance:
   m_ObjectHideFlags: 0
