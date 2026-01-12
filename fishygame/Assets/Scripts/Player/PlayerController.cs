@@ -16,7 +16,7 @@ public class PlayerController : MonoBehaviour
     private Animator myAnimator;
     private SpriteRenderer mySpriteRender;
     */
-    private bool facingLeft = false;
+    //private bool facingLeft = false;
     private void Awake()
     {
         playerControls = new PlayerControls();
