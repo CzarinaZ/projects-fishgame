@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public bool FacingLeft { get { return FacingLeft;} set { FacingLeft = value; } }
+    //public bool FacingLeft { get { return FacingLeft;} set { FacingLeft = value; } }
     [SerializeField] private float moveSpeed = 1f;
 
     private PlayerControls playerControls;

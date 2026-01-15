@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 public class DamageSource : MonoBehaviour
 {
-    [SerializeField] private int damageAmount = 1;
+    [SerializeField] private int damageAmount = 5;
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.GetComponent<EnemyHealth>())
