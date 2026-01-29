@@ -52,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -90,7 +90,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -124,137 +124,176 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fish BS-Sheet-Sheet_0
+      name: fish idle_0
       rect:
         serializedVersion: 2
-        x: 88
-        y: 80
-        width: 23
-        height: 47
+        x: 0
+        y: 0
+        width: 200
+        height: 200
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 007ed691397074dc0800000000000000
-      internalID: -3654944244219648256
+      spriteID: 6d9953ee98c3a2740a6d9add32dbc526
+      internalID: -1448458900
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fish BS-Sheet-Sheet_1
+      name: fish idle_1
       rect:
         serializedVersion: 2
-        x: 288
-        y: 80
-        width: 23
-        height: 46
+        x: 200
+        y: 0
+        width: 200
+        height: 200
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 877949dd3bf7554a0800000000000000
-      internalID: -6605232867975587976
+      spriteID: 8d353b7e89a124b488a3cd5cfa8bb875
+      internalID: 1633723111
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fish BS-Sheet-Sheet_2
+      name: fish idle_2
       rect:
         serializedVersion: 2
-        x: 488
-        y: 80
-        width: 23
-        height: 46
+        x: 400
+        y: 0
+        width: 200
+        height: 200
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 388ce5c3249b8e400800000000000000
-      internalID: 353736264880408707
+      spriteID: 24b2149db2901a24c92145f1fe5318e8
+      internalID: 1206311746
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fish BS-Sheet-Sheet_3
+      name: fish idle_3
       rect:
         serializedVersion: 2
-        x: 688
-        y: 80
-        width: 23
-        height: 46
+        x: 600
+        y: 0
+        width: 200
+        height: 200
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2509f29eb16f12e90800000000000000
-      internalID: -7052084941748727726
+      spriteID: 429b1836d0121224fb1b110c8be0d350
+      internalID: 384884554
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fish BS-Sheet-Sheet_4
+      name: fish idle_4
       rect:
         serializedVersion: 2
-        x: 888
-        y: 80
-        width: 23
-        height: 47
+        x: 800
+        y: 0
+        width: 200
+        height: 200
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e427a7af39db860f0800000000000000
-      internalID: -1123439663768767922
+      spriteID: 17f5b75213720f54d8dd1a3f24b14e54
+      internalID: 1180625695
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fish BS-Sheet-Sheet_5
+      name: fish idle_5
       rect:
         serializedVersion: 2
-        x: 1088
-        y: 80
-        width: 23
-        height: 47
+        x: 1000
+        y: 0
+        width: 200
+        height: 200
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ddb9e2b4d8170e030800000000000000
-      internalID: 3521939760269401053
+      spriteID: f155187bfce569b498e52f78867105fc
+      internalID: 1739025033
       vertices: []
       indices: 
       edges: []
@@ -263,7 +302,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c75b72ed89700954ca75370189f9a1d8
     internalID: 0
     vertices: []
     indices: 
@@ -271,14 +310,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":1.0},"gridSpriteSize":{"x":200.0,"y":200.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      fish BS-Sheet-Sheet_0: -3654944244219648256
-      fish BS-Sheet-Sheet_1: -6605232867975587976
-      fish BS-Sheet-Sheet_2: 353736264880408707
-      fish BS-Sheet-Sheet_3: -7052084941748727726
-      fish BS-Sheet-Sheet_4: -1123439663768767922
-      fish BS-Sheet-Sheet_5: 3521939760269401053
+      fish idle_0: -1448458900
+      fish idle_1: 1633723111
+      fish idle_2: 1206311746
+      fish idle_3: 384884554
+      fish idle_4: 1180625695
+      fish idle_5: 1739025033
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
